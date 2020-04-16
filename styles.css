@@ -1,0 +1,62 @@
+
+  [data-clipboard] {
+    position: relative;
+  }
+  
+  [data-clipboard]::before {
+    content: attr(data-clipboard);
+    position: absolute;
+    background-color: #3eb442;
+    color: #fff;
+    left: 0; right: 0;
+    bottom: 0; top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    animation: pulse 1s;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale3d(1, 1, 1);
+    }
+  }  
+  
+  mark {
+    display: inline-flex;
+    padding: .2rem .4rem;
+    background-color: #1c31c3;
+    border-radius: .2rem;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+body {
+	font-size: 100%;
+	font-family: "Helvetica", Arial, sans-serif;
+	color: #333;
+	width: 760px;
+	background-color: #FFF;
+	margin: 20px auto;
+	padding: 2em 2em 4em 2em;
+}
+h1 {
+	text-align: center;
+    color: grey;
+    background-color: black;
+    animation-name: product;
+    animation-duration: 4s;/*how long the colours will change behind the h1 text which wil be for 4 seconds*/
+    
+}
+
+section{
+    position: block;
+}
+/*animation colours*/
+/*animation name is referencing the exact element where we want the 4s css animation to take place*/
+@keyframes product {
+    from {background-color: #1ce;}
+    to {background-color: #c0c0c0;}
+  }

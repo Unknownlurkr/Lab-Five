@@ -1,0 +1,34 @@
+{
+    "strangeProducts":[
+    {
+        "name": "Bag of nothing",
+        "price": 10.00,
+        "details": "Just a big of air. A bag full of nothing.",
+        "imageLocation": "../img/nothing.jpg"
+    },
+    {
+        "name": "Danny Devito Cut-out",
+        "price": 150.00,
+        "details": "A life-sizecut out of Danny Devito.",
+        "imageLocation": "../img/danny-devito-cutout.jpg"
+    },
+    {
+        "name": "Turkey Hat",
+        "price": 8.49,
+        "details": "A hat shaped like a turkey",
+        "imageLocation":"../img/turkey-hat.jpeg"
+    },
+    {
+        "name": "Blood Bathroom Matt",
+        "price":15.00,
+        "details":"Step on the matt and prank your roomates!",
+        "mageLocation":"../img/bloody-bath-mat.jpg"
+    },
+{
+        "name":"WineRack Bra",
+        "price": 30.00,
+        "details":"Hide your booze and take your booze on the go.",
+        "imageLocation":"../img/wine-rack-bra.jpg"
+    }
+  ]
+}
